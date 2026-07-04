@@ -634,7 +634,7 @@ export default function Portfolio() {
             
             <div className="flex flex-col gap-[21px]">
               <p className="text-[clamp(22px,2.08vw,40px)] font-extrabold">Thông tin liên hệ</p>
-              <a href="mailto:pn0667300@gmail.com" className="text-[clamp(16px,1.8vw,32px)] font-normal hover:text-secondary transition-colors break-all">hoangkhasnhgmai.com</a>
+              <a href="mailto:hoangkhasnh77@gmail.com" className="text-[clamp(16px,1.8vw,32px)] font-normal hover:text-secondary transition-colors break-all">hoangkhasnh77@gmail.com</a>
               <p className="text-[clamp(14px,1.5vw,24px)] font-normal text-primary/80">0974572763</p>
             </div>
 

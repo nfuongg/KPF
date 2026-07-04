@@ -2,6 +2,7 @@
   "name": "lpf-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nfuongg.github.io/KPF/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +10,9 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hello-pangea/dnd": "^17.0.0",
